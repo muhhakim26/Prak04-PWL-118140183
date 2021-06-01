@@ -3,14 +3,14 @@
   "@graph": [
     {
       "@type": "WebSite",
-      "@id": "https://prak04pwl18140183.herokuapp.com/",
+      "@id": "https://prak04pwl18140183.herokuapp.com/#website",
       "url": "https://prak04pwl18140183.herokuapp.com/",
       "name": "Prak04",
       "description": "Download Anime Subtitle Indonesia Streaming Anime Terbaru",
       "potentialAction": [
         {
           "@type": "SearchAction",
-          "target": "https://prak04pwl18140183.herokuapp.com/",
+          "target": "https://prak04pwl18140183.herokuapp.com/?s={search_term_string}",
           "query-input": "required name=search_term_string"
         }
       ],
@@ -18,7 +18,7 @@
     },
     {
       "@type": "ImageObject",
-      "@id": "https://prak04pwl18140183.herokuapp.com/",
+      "@id": "https://prak04pwl18140183.herokuapp.com/#primaryimage",
       "inLanguage": "id-ID",
       "url": "https://samehadaku.vip/wp-content/uploads/2021/04/111757.jpg",
       "width": 212,
@@ -26,18 +26,20 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://prak04pwl18140183.herokuapp.com/",
+      "@id": "https://prak04pwl18140183.herokuapp.com/#webpage",
       "url": "https://prak04pwl18140183.herokuapp.com/",
       "name": "Fumetsu no Anata e Subtitle Indonesia",
-      "isPartOf": { "@id": "https://prak04pwl18140183.herokuapp.com/" },
+      "isPartOf": {
+        "@id": "https://prak04pwl18140183.herokuapp.com//#website"
+      },
       "primaryImageOfPage": {
-        "@id": "https://prak04pwl18140183.herokuapp.com/"
+        "@id": "https://prak04pwl18140183.herokuapp.com/#primaryimage"
       },
       "datePublished": "2021-04-12T16:59:54+00:00",
       "dateModified": "2021-05-31T21:09:50+00:00",
       "description": "Download online Fumetsu no Anata e Subtitle Indonesia terbaru, tonton sekarang anime Fumetsu no Anata e sub indo",
       "breadcrumb": {
-        "@id": "https://prak04pwl18140183.herokuapp.com/"
+        "@id": "https://prak04pwl18140183.herokuapp.com/#breadcrumb"
       },
       "inLanguage": "id-ID",
       "potentialAction": [
