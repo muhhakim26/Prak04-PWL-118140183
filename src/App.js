@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import { Helmet } from "react-helmet";
+import jsonld from "./jsonld.json";
+import { data } from "./dummy";
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Helmet>
+        <script type="application/ld+json">{JSON.stringify(jsonld)}</script>
+      </Helmet>
+      <div>
+        <div id="movie-card-list">
+          <div class="movie-card">
+            <div class="color-overlay">
+              <div class="movie-content">
+                <div class="movie-header">
+                  <h1 class="movie-title">Fumetsu no Anata e</h1>
+                  <h4 class="movie-info">(2021) Adventure, Drama </h4>
+                </div>
+                <p class="movie-desc">
+                  "Makhluk abadi misterius dikirim ke Bumi tanpa emosi ataupun
+                  identitas. Tapi, ia mampu mengambil bentuk apapun yang berada
+                  di sekitarnya yang memiliki dorongan kuat, sampai ia bertemu
+                  dengan seorang anak laki-laki."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
   );
-}
+};
 
 export default App;

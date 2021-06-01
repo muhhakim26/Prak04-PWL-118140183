@@ -1,0 +1,87 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://samehadaku.vip/#website",
+      "url": "https://samehadaku.vip/",
+      "name": "Samehadaku",
+      "description": "Download Anime Subtitle Indonesia Streaming Anime Terbaru",
+      "potentialAction": [
+        {
+          "@type": "SearchAction",
+          "target": "https://samehadaku.vip/?s={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      ],
+      "inLanguage": "id-ID"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://samehadaku.vip/anime/fumetsu-no-anata-e/#primaryimage",
+      "inLanguage": "id-ID",
+      "url": "https://samehadaku.vip/wp-content/uploads/2021/04/111757.jpg",
+      "width": 212,
+      "height": 300
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://samehadaku.vip/anime/fumetsu-no-anata-e/#webpage",
+      "url": "https://samehadaku.vip/anime/fumetsu-no-anata-e/",
+      "name": "Fumetsu no Anata e Subtitle Indonesia - Samehadaku",
+      "isPartOf": { "@id": "https://samehadaku.vip/#website" },
+      "primaryImageOfPage": {
+        "@id": "https://samehadaku.vip/anime/fumetsu-no-anata-e/#primaryimage"
+      },
+      "datePublished": "2021-04-12T16:59:54+00:00",
+      "dateModified": "2021-05-31T21:09:50+00:00",
+      "description": "Download online Fumetsu no Anata e Subtitle Indonesia terbaru samehadaku, tonton sekarang anime Fumetsu no Anata e sub indo",
+      "breadcrumb": {
+        "@id": "https://samehadaku.vip/anime/fumetsu-no-anata-e/#breadcrumb"
+      },
+      "inLanguage": "id-ID",
+      "potentialAction": [
+        {
+          "@type": "ReadAction",
+          "target": ["https://samehadaku.vip/anime/fumetsu-no-anata-e/"]
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://samehadaku.vip/anime/fumetsu-no-anata-e/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "WebPage",
+            "@id": "https://samehadaku.vip/",
+            "url": "https://samehadaku.vip/",
+            "name": "Home"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "WebPage",
+            "@id": "https://samehadaku.vip/anime/",
+            "url": "https://samehadaku.vip/anime/",
+            "name": "Anime"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "WebPage",
+            "@id": "https://samehadaku.vip/anime/fumetsu-no-anata-e/",
+            "url": "https://samehadaku.vip/anime/fumetsu-no-anata-e/",
+            "name": "Fumetsu no Anata e"
+          }
+        }
+      ]
+    }
+  ]
+}
