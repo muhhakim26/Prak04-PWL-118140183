@@ -3,14 +3,14 @@
   "@graph": [
     {
       "@type": "WebSite",
-      "@id": "https://samehadaku.vip/#website",
-      "url": "https://samehadaku.vip/",
-      "name": "Samehadaku",
+      "@id": "https://prak04pwl18140183.herokuapp.com/",
+      "url": "https://prak04pwl18140183.herokuapp.com/",
+      "name": "Prak04",
       "description": "Download Anime Subtitle Indonesia Streaming Anime Terbaru",
       "potentialAction": [
         {
           "@type": "SearchAction",
-          "target": "https://samehadaku.vip/?s={search_term_string}",
+          "target": "https://prak04pwl18140183.herokuapp.com/",
           "query-input": "required name=search_term_string"
         }
       ],
@@ -18,7 +18,7 @@
     },
     {
       "@type": "ImageObject",
-      "@id": "https://samehadaku.vip/anime/fumetsu-no-anata-e/#primaryimage",
+      "@id": "https://prak04pwl18140183.herokuapp.com/",
       "inLanguage": "id-ID",
       "url": "https://samehadaku.vip/wp-content/uploads/2021/04/111757.jpg",
       "width": 212,
@@ -26,38 +26,38 @@
     },
     {
       "@type": "WebPage",
-      "@id": "https://samehadaku.vip/anime/fumetsu-no-anata-e/#webpage",
-      "url": "https://samehadaku.vip/anime/fumetsu-no-anata-e/",
-      "name": "Fumetsu no Anata e Subtitle Indonesia - Samehadaku",
-      "isPartOf": { "@id": "https://samehadaku.vip/#website" },
+      "@id": "https://prak04pwl18140183.herokuapp.com/",
+      "url": "https://prak04pwl18140183.herokuapp.com/",
+      "name": "Fumetsu no Anata e Subtitle Indonesia",
+      "isPartOf": { "@id": "https://prak04pwl18140183.herokuapp.com/" },
       "primaryImageOfPage": {
-        "@id": "https://samehadaku.vip/anime/fumetsu-no-anata-e/#primaryimage"
+        "@id": "https://prak04pwl18140183.herokuapp.com/"
       },
       "datePublished": "2021-04-12T16:59:54+00:00",
       "dateModified": "2021-05-31T21:09:50+00:00",
-      "description": "Download online Fumetsu no Anata e Subtitle Indonesia terbaru samehadaku, tonton sekarang anime Fumetsu no Anata e sub indo",
+      "description": "Download online Fumetsu no Anata e Subtitle Indonesia terbaru, tonton sekarang anime Fumetsu no Anata e sub indo",
       "breadcrumb": {
-        "@id": "https://samehadaku.vip/anime/fumetsu-no-anata-e/#breadcrumb"
+        "@id": "https://prak04pwl18140183.herokuapp.com/"
       },
       "inLanguage": "id-ID",
       "potentialAction": [
         {
           "@type": "ReadAction",
-          "target": ["https://samehadaku.vip/anime/fumetsu-no-anata-e/"]
+          "target": ["https://prak04pwl18140183.herokuapp.com/"]
         }
       ]
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://samehadaku.vip/anime/fumetsu-no-anata-e/#breadcrumb",
+      "@id": "https://prak04pwl18140183.herokuapp.com/#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "item": {
             "@type": "WebPage",
-            "@id": "https://samehadaku.vip/",
-            "url": "https://samehadaku.vip/",
+            "@id": "https://prak04pwl18140183.herokuapp.com/",
+            "url": "https://prak04pwl18140183.herokuapp.com/",
             "name": "Home"
           }
         },
@@ -66,8 +66,8 @@
           "position": 2,
           "item": {
             "@type": "WebPage",
-            "@id": "https://samehadaku.vip/anime/",
-            "url": "https://samehadaku.vip/anime/",
+            "@id": "https://prak04pwl18140183.herokuapp.com//anime/",
+            "url": "https://prak04pwl18140183.herokuapp.com//anime/",
             "name": "Anime"
           }
         },
@@ -76,8 +76,8 @@
           "position": 3,
           "item": {
             "@type": "WebPage",
-            "@id": "https://samehadaku.vip/anime/fumetsu-no-anata-e/",
-            "url": "https://samehadaku.vip/anime/fumetsu-no-anata-e/",
+            "@id": "https://prak04pwl18140183.herokuapp.com/",
+            "url": "https://prak04pwl18140183.herokuapp.com/",
             "name": "Fumetsu no Anata e"
           }
         }
